@@ -58,11 +58,17 @@ $(document).ready(function() {
         var cardrow = $("<div class='row'></div>");
         cardrow.append(projcard1).append(projcard2).append(projcard3);
         var cardrow2 = $("<div class='row'></div>");
-        cardrow2.append(projcard4).append(projcard5);
+        cardrow2.append(projcard4).append(projcard5).append(projcard6);
+        var cardrow3 = $("<div class='row'></div>");
+        cardrow3.append(projcard7).append(projcard8).append(projcard9);
+        var cardrow4 = $("<div class='row'></div>");
+        cardrow4.append(projcard10);
         var portfolioDiv = $("<div class='content'></div>");
         portfolioDiv.attr("value", 3);
         portfolioDiv.append(portfolioTitle).append(cardrow);
         portfolioDiv.append(cardrow2);
+        portfolioDiv.append(cardrow3);
+        portfolioDiv.append(cardrow4);
         return portfolioDiv;
     }
 
@@ -81,7 +87,7 @@ $(document).ready(function() {
     $("#attachDiv").append(intro).append(about).append(portfolio).append(contact);
     //when user first loads page, only show intro
 
-    about.hide();
+    about();
     portfolio.hide();
     contact.hide();
     //click functions

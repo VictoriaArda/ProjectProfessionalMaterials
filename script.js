@@ -10,7 +10,7 @@ $(document).ready(function() {
     function populateIntro() {
         var introTitle = $("<p id='intro-headText'><span class='red-text'>Hi!</span></p>");
         var introPic = $("<img src='img/IMG_4954.JPG' class='roundimg'> ");
-        var introContent = $("<p id='intro-text'>My name is <span class='red-text'>Victoria</span>. <br>I'm a <span class='red-text'>full stack web developer</span>. <br>Welcome to my portfolio! <br>Here you will find a collection of the projects I have created over the past 6 months throughout my coding bootcamp at Rutgers University‎.<br>On my contact page, you will find direct links to view my CV, telephone and email address, my GitHub account and my LinkedIn account.</p>");
+        var introContent = $("<p id='intro-text'>My name is <span class='red-text'>Victoria</span>. <br>I'm a <span class='red-text'><a id='aboutPage'>full stack web developer</a> </span>. <br>Welcome to my portfolio! <br>Here you will find a collection of the  <span class='red-text'> <a id='portfolioPage'>projects</a> </span> I have created over the past 6 months throughout my coding bootcamp at Rutgers University‎.<br>On my <span class='red-text'><a id='contactPage'>contact</a></span> page, you will find direct links to view my CV, telephone and email address, my GitHub account and my LinkedIn account.</p>");
         var introDiv = $("<div class='content'></div>");
         introDiv.attr("value", 1);
         introDiv.append(introTitle).append(introPic).append(introContent);

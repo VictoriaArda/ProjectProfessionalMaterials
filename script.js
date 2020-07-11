@@ -51,9 +51,7 @@ $(document).ready(function() {
         var projcard7 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='img/fitnessTracker.PNG'><span style='font-size:1.40em;' class='card-title white-text red'>Fitness Tracker</span></div><div class='card-content'><p class='card-textcontent'></p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://fitnesstrackerrr.herokuapp.com/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/VictoriaArda/FitnessTracker' target='_blank'>GitHub</a></p></div></div>");
         var projcard8 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='img/hotrest.PNG'><span style='font-size:1.40em;' class='card-title white-text red'>Hot Restaurant</span></div><div class='card-content'><p class='card-textcontent'></p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://warm-fjord-47879.herokuapp.com/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/VictoriaArda/HotRestaurant' target='_blank'>GitHub</a></p></div></div>");
         var projcard9 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='img/notetaker.PNG'><span style='font-size:1.40em;' class='card-title white-text red'>Note Taker</span></div><div class='card-content'><p class='card-textcontent'></p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://peaceful-basin-71780.herokuapp.com/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/VictoriaArda/NoteTaker' target='_blank'>GitHub</a></p></div></div>");
-        var projcard10 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='img/project2.PNG'><span style='font-size:1.40em;' class='card-title white-text red'>Recipe Finder‎</span></div><div class='card-content'><p class='card-textcontent'></p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://project-2-vnv.herokuapp.com/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/VictoriaArda/Project2' target='_blank'>GitHub</a></p></div></div>");
-
-
+        var projcard10 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='img/project2.PNG'><span style='font-size:1.40em;' class='card-title white-text red'>Recipe Finder‎</span></div><div class='card-content'><p class='card-textcontent'></p></div><a style='font-size:1.40em;padding:10px;' class='red-text'https://project-2-vnv.herokuapp.com/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/VictoriaArda/Project2' target='_blank'>GitHub</a></p></div></div>");
 
         var cardrow = $("<div class='row'></div>");
         cardrow.append(projcard1).append(projcard2).append(projcard3);
@@ -87,7 +85,7 @@ $(document).ready(function() {
     $("#attachDiv").append(intro).append(about).append(portfolio).append(contact);
     //when user first loads page, only show intro
 
-    about();
+    about.hide();
     portfolio.hide();
     contact.hide();
     //click functions

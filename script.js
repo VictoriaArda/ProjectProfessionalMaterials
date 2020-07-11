@@ -8,8 +8,8 @@ $(document).ready(function() {
     });
     //populating content
     function populateIntro() {
-        var introTitle = $("<p id='intro-headText'><span class='red-text'>Hi</span>!</p>");
-        var introContent = $("<p id='intro-text'>My name is <span class='red-text'>Victoria</span>. <br>I'm a <span class='red-text'>full stack web developer</span>. <br>Welcome to my portfolio site!</p>");
+        var introTitle = $("<p id='intro-headText'><span class='red-text'>Hi!</span>!</p>");
+        var introContent = $("<p id='intro-text'>My name is <span class='red-text'>Victoria</span>. <br>I'm a <span class='red-text'>full stack web developer</span>. <br>Welcome to my portfolio! <br>Here you will find a collection of the projects I have created over the past 6 months throughout my coding bootcamp at Rutgers University‎.<br>On my contact page, you will find direct links to view my CV, telephone and email address, my GitHub account and my LinkedIn account.</p>");
         var introDiv = $("<div class='content'></div>");
         introDiv.attr("value", 1);
         introDiv.append(introTitle).append(introContent);
